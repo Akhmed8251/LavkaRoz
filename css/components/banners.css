@@ -1,0 +1,171 @@
+.banners__container {
+    display: flex;
+    gap: 20px;
+}
+
+.banners__slider-wrapper {
+    width: 75%;
+    height: 100%;
+}
+
+.banners__slider-wrapper .swiper-prev {
+    left: 20px;
+}
+
+.banners__slider-wrapper .swiper-next {
+    right: 20px;
+}
+
+.banners__slider-wrapper .swiper-pagination {
+    bottom: 30px;
+}
+
+.banners__slider-wrapper .swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+    border-radius: 0;
+}
+
+.banners__slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.banner-slide {
+    border-radius: 10px;
+    padding: 90px;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #f4e5e2;
+}
+
+.banner-slide__content {
+    width: 307px;
+}
+
+.banner-slide__title {
+    font-family: "Yeseva One";
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner-slide__promocode-text {
+    font-size: 18px;
+    line-height: 1.44;
+    color: #222a46;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.banner-slide__promocode-wrapper {
+    display: flex;
+}
+
+.banner-slide__promocode-name {
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 4px 15px 0px rgba(34, 42, 70, 0.08);
+    padding: 14px 25px;
+    font-weight: 500;
+    line-height: 1.375;
+    color: #e2195b;
+    letter-spacing: 1.6px;
+}
+
+.banner-slide__promocode-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #0093a2;
+    border-radius: 0 10px 10px 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .3s;
+}
+
+.banner-slide__promocode-btn:hover {
+    background-color: #078a97;
+}
+
+.banner-slide__promocode-btn::before {
+    content: '';
+    background: url('/img/copy.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.bouquet-week {
+    flex-basis: 25%;
+    overflow: hidden;
+}
+
+.bouquet-week__heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.44;
+    color: #222a46;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bouquet-week__card {
+    height: auto;
+}
+
+.bouquet-week__card .bouquet-card__body {
+    margin-bottom: 15px;
+}
+
+.bouquet-week__card .bouquet-card__bottom {
+    padding-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+    .banners__slider-wrapper {
+        width: 100%;
+    }
+
+    .bouquet-week {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-slide {
+        background-position: right -84px top;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-slide {
+        padding: 40px 80px;
+        height: 350px;
+    }
+
+    .banner-slide__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner-slide {
+        padding: 50px 30px;
+        height: 250px;
+    }
+
+    .banner-slide__title {
+        font-size: 20px;
+    }
+
+    .banners__slider-wrapper .swiper-prev {
+        left: -10px;
+    }
+
+    .banners__slider-wrapper .swiper-next {
+        right: -10px;
+    }
+}

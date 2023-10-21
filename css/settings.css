@@ -1,0 +1,171 @@
+body {
+    font-family: "TT Norms";   
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.page {
+    overflow-x: hidden;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Yeseva One";
+    font-size: 40px;
+    line-height: 1.25;
+    color: #222a46;
+    margin-bottom: 30px;
+}
+
+.title-link {
+    display: flex;
+    align-items: center;  
+    gap: 10px;
+}
+
+.title-link__icon {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.title-link__text {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: 500;
+    color: #1b1c21;
+    transition: color .3s;
+}
+
+.title-link path {
+    transition: .3s;
+}
+
+.title-link:hover .title-link__text {
+    color: #0093a2;
+}
+
+.title-link:hover path {
+    fill: #0093a2;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0;
+}
+
+.swiper-pagination-bullet:not(:last-child) {
+    margin-right: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.swiper-prev,
+.swiper-next {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px 0px rgba(34, 42, 70, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    cursor: pointer;
+}
+
+.swiper-prev path,
+.swiper-next path {
+    transition: .3s;
+}
+
+.swiper-prev:hover path,
+.swiper-next:hover path {
+    stroke: #0093a2;
+} 
+
+.swiper-prev {
+    transform: translateY(-50%) rotate(-180deg);
+    left: -20px;
+}
+
+.swiper-next {
+    right: -20px;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+[class*="title-wrapper"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+[class*="title-wrapper"] .title {
+    margin-bottom: 0;
+}
+
+[class*="slider-wrapper"] {
+    position: relative;
+}
+
+@media (max-width: 1260px) {
+    .swiper-prev {
+        left: -5px;
+    }
+    
+    .swiper-next {
+        right: -5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bouquet-delivery__slider .swiper-navigation,
+    .best-offers__slider .swiper-navigation,
+    .new-products__slider .swiper-navigation {
+        display: none;
+    }
+
+    .title {
+        font-family: "TT Norms";
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    [class*="title-wrapper"] {
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}

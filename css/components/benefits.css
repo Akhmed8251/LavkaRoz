@@ -1,0 +1,58 @@
+.benefits__list {
+    display: flex;
+    gap: 15px;
+}
+
+.benefits__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #f2f3f5;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222a46;
+    padding: 25px;
+    box-shadow: 0px 4px 12px 0px rgba(34, 42, 70, 0.03);
+}
+
+.benefits__item::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.benefits__item_delivery::before {
+    background-image: url('/img/delivery.svg');
+}
+
+.benefits__item_sale::before {
+    background-image: url('/img/sale.svg');
+}
+
+.benefits__item_arrival::before {
+    background-image: url('/img/arrival.svg');
+}
+
+.benefits__item_flowers::before {
+    background-image: url('/img/flowers.svg');
+}
+
+.benefits__item_work::before {
+    background-image: url('/img/calendar.svg');
+}
+
+@media (max-width: 992px) {
+    .benefits__wrapper {
+        overflow-x: auto;
+        margin-right: -15px;
+        padding-right: 15px;
+    }
+
+    .benefits__list {
+        width: max-content;
+    }
+}

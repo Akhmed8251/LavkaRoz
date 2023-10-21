@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .best-offers__slider {
+        margin-right: -15px;
+        padding-right: 15px;
+    }
+}

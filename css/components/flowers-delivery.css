@@ -1,0 +1,94 @@
+.flowers-delivery {
+    background: url('/img/flowers-delivery-bg-1.svg') no-repeat top left,
+                url('/img/flowers-delivery-bg-2.svg') no-repeat top right; 
+    background-color: #f2f6f6;
+    padding: 70px 0;
+    position: relative;
+}
+
+/* .flowers-delivery::before,
+.flowers-delivery::after {
+    content: '';
+    width: 278px;
+    height: 189px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.flowers-delivery::before {
+    background: url('/img/flowers-delivery-bg-1.svg') no-repeat;
+    left: 0;
+}
+
+.flowers-delivery::after {
+    background: url('/img/flowers-delivery-bg-2.svg') no-repeat;
+    right: 0;
+} */
+
+.flowers-delivery__title {
+    font-family: "Yeseva One";
+    position: relative;
+    font-weight: 500;
+    text-align: center;
+}
+
+.flowers-delivery__info {
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 100px;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #353949;
+    box-shadow: 0px 4px 15px 0px rgba(34, 42, 70, 0.15);
+}
+
+.flowers-delivery__info p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .flowers-delivery {
+        background: url('/img/flowers-delivery-bg-1.svg') no-repeat -133px -6px,
+                    url('/img/flowers-delivery-bg-2.svg') no-repeat top -32px right -48px;
+        background-color: #f2f6f6;
+    }
+
+    .flowers-delivery__info {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .flowers-delivery {
+        padding-top: 60px;
+    }
+
+    .flowers-delivery__title {
+        font-family: "TT Norms";
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 425px) {
+    .flowers-delivery {
+        background: url('/img/flowers-delivery-bg-1.svg') no-repeat -66px -6px,
+                    url('/img/flowers-delivery-bg-2.svg') no-repeat top right -84px;
+        background-size: 200px 155px, 206px 187px;
+        background-color: #f2f6f6;
+        padding-top: 40px;
+    }
+    
+    .flowers-delivery__title {
+        font-size: 20px;
+        width: 191px;
+        margin: 0 auto 30px;
+    }
+
+    .flowers-delivery__info {
+        padding: 20px 25px;
+        font-size: 16px;
+    }
+}

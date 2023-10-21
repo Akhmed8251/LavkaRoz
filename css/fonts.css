@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "TT Norms";
+    src: url('/fonts/TTNormsRegular.woff') format("woff"),
+        url('/fonts/TTNormsRegular.woff2') format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "TT Norms";
+    src: url('/fonts/TTNormsMedium.woff') format("woff"),
+        url('/fonts/TTNormsMedium.woff2') format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "TT Norms";
+    src: url('/fonts/TTNormsBold.woff') format("woff"),
+        url('/fonts/TTNormsBold.woff2') format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url('/fonts/YesevaOne-Regular.woff') format("woff"),
+        url('/fonts/YesevaOne-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}

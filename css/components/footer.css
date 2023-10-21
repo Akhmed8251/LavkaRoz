@@ -1,0 +1,139 @@
+.footer {
+    background-color: #f2f6f6;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 1px solid #e2e4eb;
+    padding: 40px 0 30px 0;
+}
+
+.footer__wrapper-column .footer__wrapper:not(:last-child) {
+    margin-bottom: 30px;
+} 
+
+.footer__wrapper-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.44;
+    color: #222a46;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    line-height: 1.375;
+    color: #353949;
+    transition: color .3s;
+}
+
+.footer__link:hover {
+    color: #0093a2;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer__item-subtitle {
+    font-size: 14px;
+    line-height: 1.42;
+    color: #505567;
+    display: block;
+}
+
+.footer__item-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.44;
+    color: #222a46;
+}
+
+.footer__wrapper_coordinates .footer__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.footer__payment-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__payment-item {
+    flex-shrink: 0;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__social .social__link {
+    width: 32px;
+    height: 32px;
+}
+
+.footer__social .social__text {
+    margin-bottom: 0;
+}
+
+@media (max-width: 425px) {
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .footer__wrapper-column .footer__wrapper:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .footer__wrapper-column {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer__wrapper-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__wrapper-title::after {
+        content: '';
+        background: url('/img/arrow-down.svg') no-repeat;
+        width: 12px;
+        height: 8px;
+        display: block;
+        transform: rotate(0deg);
+        z-index: 10;
+        transition: .3s;
+        flex-shrink: 0;
+    }
+
+    .footer__list {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: .3s linear;
+    }
+
+    .footer__wrapper.open .footer__wrapper-title::after {
+        transform: rotate(180deg);
+    }
+
+    .footer__wrapper.open .footer__list {
+        opacity: 1;
+    }
+}

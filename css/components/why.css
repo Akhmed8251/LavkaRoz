@@ -1,0 +1,97 @@
+.why {
+    background: url('/img/why-bg.svg') no-repeat right bottom;
+    padding: 70px 0;
+    margin-bottom: 0;
+}
+
+.why__container {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.why__title {
+    margin-bottom: 20px;
+}
+
+.why__content {
+    max-width: 873px;
+}
+
+.why__container::after {
+    content: '';
+    background: url('/img/why-flowers.svg') no-repeat center;
+    background-size: 86px 92px;
+    width: 178px;
+    height: 178px;
+    display: block;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: #fff;
+    box-shadow: 0px 15px 30px rgba(34, 42, 70, 0.05);
+}
+
+.why__desc,
+.why__item {
+    font-size: 18px;
+    line-height: 1.44;
+    color: #353949;
+}
+
+.why__desc {
+    margin-bottom: 20px;
+}
+
+.why__item {
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    position: relative;
+}
+
+.why__item::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    display: block;
+    background-color: #353949;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+}
+
+.why__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .why {
+        background: url('/img/why-bg.svg') no-repeat right -80px bottom;
+    }
+
+    .why__container {
+        gap: 20px;
+    }
+
+    .why__container::after {
+        width: 129px;
+        height: 129px;
+        background-size: 81px 86px;
+    }
+
+    .why__content {
+        max-width: 524px;
+    }
+}
+
+@media (max-width: 575px) {
+    .why {
+        background: url('/img/why-bg.svg') no-repeat right bottom;
+        background-size: 145x;
+    }
+
+    .why__container {
+        flex-direction: column;
+        align-items: start;
+    }
+}

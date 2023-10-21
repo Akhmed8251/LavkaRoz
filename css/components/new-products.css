@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .new-products__slider {
+        margin-right: -15px;
+        padding-right: 15px;
+    }
+}

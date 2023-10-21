@@ -1,0 +1,18 @@
+@import url('reset.css');
+@import url('fonts.css');
+@import url('settings.css');
+
+@import url('components/header.css');
+@import url('components/banners.css');
+@import url('components/benefits.css');
+@import url('components/bouquet-card.css');
+@import url('components/best-offers.css');
+@import url('components/new-products.css');
+@import url('components/sections.css');
+@import url('components/gallery.css');
+@import url('components/feedback.css');
+@import url('components/news.css');
+@import url('components/flowers-delivery.css');
+@import url('components/why.css');
+@import url('components/map.css');
+@import url('components/footer.css');
