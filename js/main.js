@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 
-    const bouquetFavBtns = document.querySelectorAll(".bouquet-card__favorite-btn")
+    const bouquetFavBtns = document.querySelectorAll(".bouquet-card__header-action_favorite")
     bouquetFavBtns.forEach(favBtn => {
         favBtn.addEventListener("click", function() {
             favBtn.classList.toggle("_active")

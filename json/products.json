@@ -1,0 +1,424 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 2,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 3,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 4,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 5,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 6,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 7,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 8,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 9,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 10,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 11,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        },
+        {
+            "id": 12,
+            "labels": null,
+            "details": {
+                "width": "35 см",
+                "height": "50 см",
+                "description": "Нежный, насыщенный и ароматный букет белых альстромерий, лавандовых роз и сантини."
+            },
+            "images": [
+                "img/bouquet-1.jpg",
+                "img/bouquet-2.jpg",
+                "img/bouquet-3.jpg"
+            ],
+            "title": "Букет 25 роз Нежный микс",
+            "info": "Высота: 60 см, Ширина: 35 см",
+            "rating": "4.0",
+            "feedbackCount": "15",
+            "deliveryTimeInMinutes": "150",
+            "sizes": [
+                {
+                    "label": "MIN",
+                    "value": "1"
+                },
+                {
+                    "label": "STANDART",
+                    "value": "2"
+                },
+                {
+                    "label": "MAX",
+                    "value": "3"
+                }
+            ],
+            "price": "13 499 ₽",
+            "priceOld": "15 499 ₽"
+        }
+    ]
+}
